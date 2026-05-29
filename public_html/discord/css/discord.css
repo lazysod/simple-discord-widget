@@ -1,0 +1,58 @@
+.profile {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    margin-right: 11px;
+    display: inline-block;
+    
+}	
+.altChat {
+    background-color: #343a40!important;
+    color: #fff;
+    height: 412px;
+    width: 100%;
+    padding: 15px;
+}
+.blueHeader {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.member {
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+    margin: 6px 0;
+}
+.profile img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+
+.status {
+/*	    width: 6px;
+    height: 6px;*/
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.online {
+    background-color: #43b581;
+} 
+.idle {
+    background-color: #faa61a;
+}
+.userName {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1;
+}

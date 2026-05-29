@@ -1,0 +1,35 @@
+.list-group-item-action:active {
+    color: #212529!important;
+    background-color: #e9ecef!important;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+    z-index: 1;
+    color: #495057;
+    text-decoration: none;
+    background-color: #cecece;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff!important;;
+    background-color: #007bff!important;;
+    border-color: #007bff!important;;
+}
+
+a.discord.list-group-item.list-group-item-action.flex-column.align-items-start.active {
+    cursor: default;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff!important;
+    background-color: #007bff!important;
+    border-color: #007bff!important;
+}
+
+.list-group-item-action:hover {
+    z-index: 1;
+    color: #495057;
+    text-decoration: none;
+    background-color: #cecece;
+}
